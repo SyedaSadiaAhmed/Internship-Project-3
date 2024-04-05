@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* Text color */
+}
+
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    text-align: center; /* Center the content horizontally */
+    padding: 20px;
+}
+
+/* Responsive styles */
+.iphone-image {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pre-buy-text {
+    color: #f1ecec; /* Dark gray text color */
+    font-size: 25px; /* Font size */
+    margin-top: 10px; /* Decrease space above the text */
+    margin-bottom: 10px; /* Decrease space below the text */
+}
+
+
+
+.main-image {
+    margin-top: 2px; /* Decrease distance between text and image */
+    width: auto; /* Allow image to scale */
+    max-width: 100%; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Increase maximum height */
+    
+}
+
+.color-options {
+    margin-top: 2px; /* Decrease distance between image and color options */
+    text-align: center;
+    margin-bottom: 10px; /* Center radio buttons horizontally */
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Add cursor pointer */
+    transition: background-color 0.3s ease, border-radius 0.3s ease; /* Smooth transition on hover */
+    border-radius: 50px; /* Make button round */
+}
+
+.buy-button:hover {
+    background-color: #63c0e8; /* Neon green background color on hover */
+}
+
+.price-info {
+    color: #e1dddd; /* Dark gray text color */
+    font-size: 20px; /* Font size */
+    margin-top: 20px; /* Add space above the text */
+}
+.additional-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .buy-button {
+        font-size: 14px; /* Decrease font size on smaller screens */
+        padding: 8px 16px; /* Adjust padding on smaller screens */
+    }
+}
